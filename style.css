@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    color: #FFFFFF;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+    background-color: rgb(91, 91, 91);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    width: 70vw;
+    height: 100vh;
+    background: #969696;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#paleta {
+    width: 90%;
+    max-height: 80%;
+    height: 50%;
+    border: 10px solid #5a5a5a;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+}
+
+.color {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.color-button {
+    height: 80%;
+    width: 80%;
+    border: 0;
+    border-radius: 10% ;
+    transition: 600ms ease-in-out;
+}
+
+.color-button:hover {
+    transform: scale(0.9);
+}
+
+#black {
+    background: #000;
+}
+
+#red {
+    background: #FF0000;
+}
+
+#orange {
+    background: #ff6a00;
+}
+
+#yellow {
+    background: #f2ff00;
+}
+
+#green {
+    background: #00ff00;
+}
+
+#greenultra{
+    background: #007e11;
+}
+
+#cyan {
+    background: #00f2ff;
+}
+
+#blue {
+    background: #00F;
+}
+
+#brown {
+    background: rgba(109, 67, 20, 0.953);
+}
+
+#white {
+    background: #ffffff;
+}
+
+#szaryxD {
+    background: #545454;
+}
+
+#kremowy {
+    background: #eeb8b8;
+}
+
+#plutno {
+    width: 500px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(8, 62.5px); 
+}
+
+.pixel {
+    height: 62.5px;
+    width: 62.5px;
+    border: 0;
+    background: rgb(255, 255, 255);;
+}
+
+.black {
+    background: #000;
+}
+
+.red {
+    background: #FF0000;
+}
+
+.orange {
+    background: #ff6a00;
+}
+
+.yellow {
+    background: #f2ff00;
+}
+
+.green {
+    background: #00ff00;
+}
+
+.greenultra{
+    background: #007e11;
+}
+
+.cyan {
+    background: #00f2ff;
+}
+
+.blue {
+    background: #00F;
+}
+
+.brown {
+    background: rgba(109, 67, 20, 0.953);
+}
+
+.white {
+    background: #ffffff;
+}
+
+.szaryxD {
+    background: #545454;
+}
