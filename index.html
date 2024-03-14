@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Painter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <h2>Wybierz kolor:</h2>
+        <div id="paleta">
+            <div class="color">
+                <button class="color-button" id="red" onclick="ColorRed()"></button></button>
+            </div>
+            <div class="color">
+                <button class="color-button" id="orange" onclick="ColorOrange()"></button>
+            </div>
+            <div class="color">
+                <button class="color-button" id="yellow" onclick="ColorYellow()"></button>
+            </div>
+            <div class="color">
+                <button class="color-button" id="green" onclick="ColorGreen()"></button>
+            </div>
+            <div class="color">
+                <button class="color-button" id="greenultra" onclick="ColorGreenUltra()"></button>
+            </div>
+            <div class="color">
+                <button class="color-button" id="cyan" onclick="ColorCyan()"></button>
+            </div>
+            <div class="color">
+                <button class="color-button" id="blue" onclick="ColorBlue()"></button>
+            </div>
+            <div class="color">
+                <button class="color-button" id="brown" onclick="ColorBrown()"></button>
+            </div>
+            <div class="color">
+                <button class="color-button" id="white" onclick="ColorWhite()"></button>
+            </div>
+            <div class="color">
+                <button class="color-button" id="szaryxD" onclick="ColorSzaryd()"></button>
+            </div>
+            <div class="color">
+                <button class="color-button" id="black" onclick="ColorBlack()"></button>
+            </div>
+            <div class="color">
+                <button class="color-button" id="kremowy" onclick="ColorKrem()"></button>
+            </div>
+        </div>
+        <footer>
+                <p>🎨 by Przemek Wo ✨</p>
+            </footer>
+    </div>
+    <div id="main">
+        <div id="plutno">
+            <button id="pixel-000" class="pixel" onclick="ChangeColor000(color)"></button>
+            <button id="pixel-001" class="pixel" onclick="ChangeColor001(color)"></button>
+            <button id="pixel-002" class="pixel" onclick="ChangeColor002(color)"></button>
+            <button id="pixel-003" class="pixel" onclick="ChangeColor003(color)"></button>
+            <button id="pixel-004" class="pixel" onclick="ChangeColor004(color)"></button>
+            <button id="pixel-005" class="pixel" onclick="ChangeColor005(color)"></button>
+            <button id="pixel-006" class="pixel" onclick="ChangeColor006(color)"></button>
+            <button id="pixel-007" class="pixel" onclick="ChangeColor007(color)"></button>
+            <button id="pixel-008" class="pixel" onclick="ChangeColor008(color)"></button>
+            <button id="pixel-009" class="pixel" onclick="ChangeColor009(color)"></button>
+            <button id="pixel-010" class="pixel" onclick="ChangeColor010(color)"></button>
+            <button id="pixel-011" class="pixel" onclick="ChangeColor011(color)"></button>
+            <button id="pixel-012" class="pixel" onclick="ChangeColor012(color)"></button>
+            <button id="pixel-013" class="pixel" onclick="ChangeColor013(color)"></button>
+            <button id="pixel-014" class="pixel" onclick="ChangeColor014(color)"></button>
+            <button id="pixel-015" class="pixel" onclick="ChangeColor015(color)"></button>
+            <button id="pixel-016" class="pixel" onclick="ChangeColor016(color)"></button>
+            <button id="pixel-017" class="pixel" onclick="ChangeColor017(color)"></button>
+            <button id="pixel-018" class="pixel" onclick="ChangeColor018(color)"></button>
+            <button id="pixel-019" class="pixel" onclick="ChangeColor019(color)"></button>
+            <button id="pixel-020" class="pixel" onclick="ChangeColor020(color)"></button>
+            <button id="pixel-021" class="pixel" onclick="ChangeColor021(color)"></button>
+            <button id="pixel-022" class="pixel" onclick="ChangeColor022(color)"></button>
+            <button id="pixel-023" class="pixel" onclick="ChangeColor023(color)"></button>
+            <button id="pixel-024" class="pixel" onclick="ChangeColor024(color)"></button>
+            <button id="pixel-025" class="pixel" onclick="ChangeColor025(color)"></button>
+            <button id="pixel-026" class="pixel" onclick="ChangeColor026(color)"></button>
+            <button id="pixel-027" class="pixel" onclick="ChangeColor027(color)"></button>
+            <button id="pixel-028" class="pixel" onclick="ChangeColor028(color)"></button>
+            <button id="pixel-029" class="pixel" onclick="ChangeColor029(color)"></button>
+            <button id="pixel-030" class="pixel" onclick="ChangeColor030(color)"></button>
+            <button id="pixel-031" class="pixel" onclick="ChangeColor031(color)"></button>
+            <button id="pixel-032" class="pixel" onclick="ChangeColor032(color)"></button>
+            <button id="pixel-033" class="pixel" onclick="ChangeColor033(color)"></button>
+            <button id="pixel-034" class="pixel" onclick="ChangeColor034(color)"></button>
+            <button id="pixel-035" class="pixel" onclick="ChangeColor035(color)"></button>
+            <button id="pixel-036" class="pixel" onclick="ChangeColor036(color)"></button>
+            <button id="pixel-037" class="pixel" onclick="ChangeColor037(color)"></button>
+            <button id="pixel-038" class="pixel" onclick="ChangeColor038(color)"></button>
+            <button id="pixel-039" class="pixel" onclick="ChangeColor039(color)"></button>
+            <button id="pixel-040" class="pixel" onclick="ChangeColor040(color)"></button>
+            <button id="pixel-041" class="pixel" onclick="ChangeColor041(color)"></button>
+            <button id="pixel-042" class="pixel" onclick="ChangeColor042(color)"></button>
+            <button id="pixel-043" class="pixel" onclick="ChangeColor043(color)"></button>
+            <button id="pixel-044" class="pixel" onclick="ChangeColor044(color)"></button>
+            <button id="pixel-045" class="pixel" onclick="ChangeColor045(color)"></button>
+            <button id="pixel-046" class="pixel" onclick="ChangeColor046(color)"></button>
+            <button id="pixel-047" class="pixel" onclick="ChangeColor047(color)"></button>
+            <button id="pixel-048" class="pixel" onclick="ChangeColor048(color)"></button>
+            <button id="pixel-049" class="pixel" onclick="ChangeColor049(color)"></button>
+            <button id="pixel-050" class="pixel" onclick="ChangeColor050(color)"></button>
+            <button id="pixel-051" class="pixel" onclick="ChangeColor051(color)"></button>
+            <button id="pixel-052" class="pixel" onclick="ChangeColor052(color)"></button>
+            <button id="pixel-053" class="pixel" onclick="ChangeColor053(color)"></button>
+            <button id="pixel-054" class="pixel" onclick="ChangeColor054(color)"></button>
+            <button id="pixel-055" class="pixel" onclick="ChangeColor055(color)"></button>
+            <button id="pixel-056" class="pixel" onclick="ChangeColor056(color)"></button>
+            <button id="pixel-057" class="pixel" onclick="ChangeColor057(color)"></button>
+            <button id="pixel-058" class="pixel" onclick="ChangeColor058(color)"></button>
+            <button id="pixel-059" class="pixel" onclick="ChangeColor059(color)"></button>
+            <button id="pixel-060" class="pixel" onclick="ChangeColor060(color)"></button>
+            <button id="pixel-061" class="pixel" onclick="ChangeColor061(color)"></button>
+            <button id="pixel-062" class="pixel" onclick="ChangeColor062(color)"></button>
+            <button id="pixel-063" class="pixel" onclick="ChangeColor063(color)"></button>            
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
